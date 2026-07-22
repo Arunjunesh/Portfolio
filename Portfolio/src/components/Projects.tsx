@@ -42,11 +42,11 @@ const Projects = () => {
       </h2>
 
       <div className="container d-flex justify-content-center">
-        <div className="row">
+        <div className="row g-4">
           {projects.map((item) => {
             const Icon = item.icon;
             return (
-              <div className="col-12 col-md-6 col-lg-6">
+              <div className="col-12 col-md col-lg-6">
                 <div className="card p-3 " id="project-card">
                   <div className="d-flex align-items-center">
                     <div className="icon-box me-2">

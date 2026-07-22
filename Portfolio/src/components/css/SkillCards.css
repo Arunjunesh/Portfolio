@@ -6,9 +6,11 @@
 }
 
 #card-body{
-    width: 10rem;
-    height: 16rem;
+    min-height: 16rem;
     background: #1E293B;
+}
+#card-body li{
+    white-space: nowrap;
 }
 #card-title{
     font-size: 20px;
