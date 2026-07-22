@@ -1,0 +1,19 @@
+#skills {
+    border-top: 1px solid #334155;
+    padding-top: 4rem;
+    background-color: #162033; 
+    padding:  0;
+}
+
+#card-body{
+    width: 10rem;
+    height: 16rem;
+    background: #1E293B;
+}
+#card-title{
+    font-size: 20px;
+}
+
+li::marker {
+    color: #3B82F6;
+}

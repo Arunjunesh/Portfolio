@@ -1,0 +1,10 @@
+#hero-image {
+  width: min(100%, 480px);
+  height: auto;
+  display: block;
+}
+
+#hero{
+  background: #0f172a;
+  padding-top:40px ;
+}

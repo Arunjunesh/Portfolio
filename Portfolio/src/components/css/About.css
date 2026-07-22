@@ -1,0 +1,32 @@
+#about-me {
+    background: #162033;
+
+}
+
+#person-icon {
+  width: min(220px, 100%);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b2636;
+  border-radius: 1rem;
+  margin: 0;
+}
+
+#about-me-text p {
+  font-size: 14px;
+}
+
+#name-icon{
+    font-size: 26px;
+}
+#email-icon{
+    font-size: 20px;
+
+}
+
+#personal-info {
+    border-left: 1px solid #3b4a63;
+    padding-left: 30px;
+}
