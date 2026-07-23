@@ -15,7 +15,7 @@ const projects = [
       "MySQL",
       "Bootstrap",
     ],
-    github: "",
+    github: "https://github.com/Arunjunesh/Employee-Management-System",
   },
   {
     icon: HandIndexThumb,
@@ -72,9 +72,14 @@ const Projects = () => {
                     </p>
                   </div>
                   <div className="mt-auto mx-2">
-                    <button className="btn btn-primary w-100">
+                    <a
+                      className="btn btn-primary w-100"
+                      href={item.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="bi bi-github me-2"></i>GitHub
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
