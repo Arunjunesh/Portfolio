@@ -5,10 +5,13 @@ const Navbar = () => {
     <section id="navbar">
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid px-3 px-lg-4">
-          <h1 className=" me-3 text-primary">AJ</h1>
-          <h2>Arunjunesh</h2>
+          <div className="d-flex align-items-center">
+            <h1 className=" me-2 text-primary">AJ</h1>
+            <h2>Arunjunesh</h2>
+          </div>
+
           <button
-            className="navbar-toggler"
+            className="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -16,7 +19,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <i className="bi bi-list text-white fs-2"></i>
           </button>
           <div
             className="collapse navbar-collapse justify-content-end"

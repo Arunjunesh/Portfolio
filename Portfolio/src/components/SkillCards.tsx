@@ -27,11 +27,11 @@ const skills = [
 const SkillCards = () => {
   return (
     <section id="skills">
-      <div className="container" id="container">
+      <div className="container" id="container ">
         <h2 className="d-flex mt-3 text-decoration-underline justify-content-center    ">
           skills
         </h2>
-        <div className="row ">
+        <div className="row d-flex justify-content-center">
           {skills.map((item) => {
             const Icon = item.icon;
             return (

@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="d-flex flex-wrap gap-2 mt-4">
               <a
-                href="./public/Arunjunesh_resume.pdf"
+                href="./Arunjunesh_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
