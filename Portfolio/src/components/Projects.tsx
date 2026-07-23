@@ -46,8 +46,11 @@ const Projects = () => {
           {projects.map((item) => {
             const Icon = item.icon;
             return (
-              <div className="col-12 col-md col-lg-6">
-                <div className="card p-3 " id="project-card">
+              <div className="col-12  col-lg-6">
+                <div
+                  className="card p-3 w-100 h-100 d-flex flex-column "
+                  id="project-card"
+                >
                   <div className="d-flex align-items-center">
                     <div className="icon-box me-2">
                       <Icon className=" project-icon text-primary fs-2  flex-shrink-0" />
@@ -63,7 +66,7 @@ const Projects = () => {
                       );
                     })}
                   </ul>
-                  <div className=" mt-auto p-3 ">
+                  <div className=" p-3 ">
                     <p className=" text-light " id="description">
                       {item.description}
                     </p>

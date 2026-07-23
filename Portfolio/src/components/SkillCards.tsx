@@ -31,7 +31,7 @@ const SkillCards = () => {
         <h2 className="d-flex mt-3 text-decoration-underline justify-content-center    ">
           skills
         </h2>
-        <div className="row  justify-content-center">
+        <div className="row ">
           {skills.map((item) => {
             const Icon = item.icon;
             return (
@@ -43,7 +43,7 @@ const SkillCards = () => {
                       {item.title}
                     </span>
                   </div>
-                  <ul className="ms-3 ">
+                  <ul className="ms-2 ">
                     {item.items.map((skill) => {
                       return <li className="text-light mb-2">{skill}</li>;
                     })}
